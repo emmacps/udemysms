@@ -69,13 +69,9 @@ $route = Route::current()->getName();
           </a>
           <ul class="treeview-menu">
             <li><a href="{{ route('student.class.view')}}"><i class="ti-more"></i>Student Class</a></li>
-            <li><a href="components_badges.html"><i class="ti-more"></i>Badge</a></li>
-            <li><a href="components_buttons.html"><i class="ti-more"></i>Buttons</a></li>
-            <li><a href="components_sliders.html"><i class="ti-more"></i>Sliders</a></li>
-            <li><a href="components_dropdown.html"><i class="ti-more"></i>Dropdown</a></li>
-            <li><a href="components_modals.html"><i class="ti-more"></i>Modal</a></li>
-            <li><a href="components_nestable.html"><i class="ti-more"></i>Nestable</a></li>
-            <li><a href="components_progress_bars.html"><i class="ti-more"></i>Progress Bars</a></li>
+            <li><a href="{{ route('student.year.view')}}"><i class="ti-more"></i>Student Year</a></li>
+            <li><a href="{{ route('student.group.view')}}"><i class="ti-more"></i>Student Group</a></li>
+            <li><a href="{{ route('student.shift.view')}}"><i class="ti-more"></i>Student Shift</a></li>
           </ul>
         </li>
 		
