@@ -31,7 +31,7 @@
 		<div class="form-group">
 		<h5>Current Password <span class="text-danger">*</span></h5>
 		<div class="controls">
-	 <input type="password" name="oldpassword" id="current_password" class="form-control" > 
+	 <input type="password" name="oldpassword" id="current_password" class="form-control"> 
 	 @error('oldpassword')
 	 <span class="text-danger">{{ $message }}</span>
 	 @enderror

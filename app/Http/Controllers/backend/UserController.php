@@ -36,10 +36,10 @@ class UserController extends Controller{
 
             $data->save();
 
-            $notification = array(
-                'message' => 'User Inserted successfully',
-                'alert-type' => 'success',
-            );
+            // $notification = array(
+            //     'message' => 'User Inserted successfully',
+            //     'alert-type' => 'success',
+            // );
 
             return redirect()->route('user.view')->with($notification);
         
